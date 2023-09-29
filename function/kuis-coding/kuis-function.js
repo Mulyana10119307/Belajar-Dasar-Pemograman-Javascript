@@ -22,7 +22,7 @@
 
 // Tulis kode di bawah ini
 
-function minimal(a, b) {
+const minimal = (a, b) => {
   if (a < b) {
     return a;
   } else if (a > b) {
@@ -30,7 +30,7 @@ function minimal(a, b) {
   } else if (a === b) {
     return a;
   }
-}
+};
 
 console.log(minimal(1, 2));
 console.log(minimal(3, 2));
